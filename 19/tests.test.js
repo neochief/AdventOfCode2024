@@ -1,11 +1,11 @@
 import {assert, test} from 'vitest'
-import {example, realInput} from "./input.js";
-import {part1, part2, parseInput} from "./code.js";
+import {example, example2, realInput} from "./input.js";
+import {parseInput, part1, part2, part2_} from "./code.js";
 
 test('input', () => {
-    const {towels, designs} = parseInput(example);
-    assert.equal(towels.length, 8);
-    assert.equal(towels[0], 'r');
+    const {patterns, designs} = parseInput(example);
+    assert.equal(patterns.length, 8);
+    assert.equal(patterns[0], 'r');
     assert.equal(designs.length, 8);
     assert.equal(designs[0], 'brwrr');
 });
@@ -15,5 +15,13 @@ test('part1: example', () => {
 });
 
 test('part1: realInput', () => {
-    assert.equal(part1(realInput), 6);
+    assert.equal(part1(realInput), 283);
+});
+
+test('part2: example', () => {
+    assert.equal(part2(example), 16);
+});
+
+test('part2: realInput', () => {
+    assert.equal(part2(realInput), 615388132411142);
 });
