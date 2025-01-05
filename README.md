@@ -25,6 +25,11 @@
 - Part1: [Task](https://neochief.github.io/advent2024/05/part1.txt) [Result](https://neochief.github.io/advent2024/05/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/05/part1.js)
 - Part2: [Task](https://neochief.github.io/advent2024/05/part2.txt) [Result](https://neochief.github.io/advent2024/05/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/05/part2.js)
 
+## ✅ Day 6
+
+- Part1: [Task](https://neochief.github.io/advent2024/06/part1.txt) [Result](https://neochief.github.io/advent2024/06/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/06/part1.js)
+- Part2: [Task](https://neochief.github.io/advent2024/06/part2.txt) [Result](https://neochief.github.io/advent2024/06/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/06/part2.js)
+
 ## ✅ Day 12
 
 - Part1: [Task](https://neochief.github.io/advent2024/12/part1.txt) [Result](https://neochief.github.io/advent2024/12/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/12/part1.js)
