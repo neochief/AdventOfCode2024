@@ -83,7 +83,7 @@
 ## ✅ Day 17
 
 - Part1: [Task](https://neochief.github.io/advent2024/17/part1.txt) [Result](https://neochief.github.io/advent2024/17/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/17/part1.js)
-- Part2: (unfinished)
+- Part2: [Task](https://neochief.github.io/advent2024/17/part2.txt) [Result](https://neochief.github.io/advent2024/17/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/17/part2.js)
 
 ## ✅ Day 18
 

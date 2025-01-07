@@ -1,6 +1,6 @@
 import {assert, test} from 'vitest'
 import {example1, realInput} from "./input.js";
-import {part1,part2, parseInput, adv, bxl} from "./code.js";
+import {part1, part2, parseInput, bxl} from "./code.js";
 
 function assertResultIs(result, expected) {
     assert.strictEqual(result[0], expected, result[1])
@@ -13,6 +13,10 @@ test('input', () => {
     assert.equal(c, 0);
     assert.equal(program.length, 6);
     assert.deepEqual(program, [0, 1, 5, 4, 3, 0]);
+});
+
+test('part1: bxl', () => {
+    assert.equal(bxl(2, 0, 6609893687, 0).b, 6609893685);
 });
 
 test('part1: e1', () => {
@@ -87,19 +91,19 @@ Program: 0,3,5,4,3,0`);
     assert.deepEqual(result2[0], '0,3,5,4,3,0');
 });
 
-// test('part2: example1', () => {
-//     const result = part2(`Register A: 2024
-// Register B: 0
-// Register C: 0
-//
-// Program: 0,3,5,4,3,0`);
-//     assert.equal(result, 117440);
-// });
-//
-// test('part2: real', () => {
-//     const result = part2(realInput);
-//     assert.equal(result, 117440);
-// });
+test('part2: example1', () => {
+    const result = part2(`Register A: 2024
+Register B: 0
+Register C: 0
+
+Program: 0,3,5,4,3,0`);
+    assert.equal(result, 117440);
+});
+
+test('part2: real', () => {
+    const result = part2(realInput);
+    assert.equal(result, 236548287712877);
+});
 
 
 
