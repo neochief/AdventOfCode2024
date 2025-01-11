@@ -94,3 +94,13 @@
 
 - Part1: [Task](https://neochief.github.io/advent2024/19/part1.txt) [Result](https://neochief.github.io/advent2024/19/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/19/part1.js)
 - Part2: [Task](https://neochief.github.io/advent2024/19/part2.txt) [Result](https://neochief.github.io/advent2024/19/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/19/part2.js)
+
+## ✅ Day 20
+
+- Part1: [Task](https://neochief.github.io/advent2024/20/part1.txt) [Result](https://neochief.github.io/advent2024/20/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/20/part1.js)
+- Part2: [Task](https://neochief.github.io/advent2024/20/part2.txt) [Result](https://neochief.github.io/advent2024/20/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/20/part2.js)
+
+## ✅ Day 21
+
+- Part1: [Task](https://neochief.github.io/advent2024/21/part1.txt) [Result](https://neochief.github.io/advent2024/21/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/21/part1.js)
+- Part2: [Task](https://neochief.github.io/advent2024/21/part2.txt) [Result](https://neochief.github.io/advent2024/21/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/21/part2.js)
