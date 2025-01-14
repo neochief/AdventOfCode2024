@@ -104,3 +104,23 @@
 
 - Part1: [Task](https://neochief.github.io/advent2024/21/part1.txt) [Result](https://neochief.github.io/advent2024/21/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/21/part1.js)
 - Part2: [Task](https://neochief.github.io/advent2024/21/part2.txt) [Result](https://neochief.github.io/advent2024/21/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/21/part2.js)
+
+## ✅ Day 22
+
+- Part1: [Task](https://neochief.github.io/advent2024/22/part1.txt) [Result](https://neochief.github.io/advent2024/22/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/22/part1.js)
+- Part2: [Task](https://neochief.github.io/advent2024/22/part2.txt) [Result](https://neochief.github.io/advent2024/22/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/22/part2.js)
+
+## ✅ Day 23
+
+- Part1: [Task](https://neochief.github.io/advent2024/23/part1.txt) [Result](https://neochief.github.io/advent2024/23/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/23/part1.js)
+- Part2: [Task](https://neochief.github.io/advent2024/23/part2.txt) [Result](https://neochief.github.io/advent2024/23/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/23/part2.js)
+
+## ✅ Day 24
+
+- Part1: [Task](https://neochief.github.io/advent2024/24/part1.txt) [Result](https://neochief.github.io/advent2024/24/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/24/part1.js)
+- Part2: [Task](https://neochief.github.io/advent2024/24/part2.txt) [Result](https://neochief.github.io/advent2024/24/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/24/part2.js)
+
+## ✅ Day 25
+
+- Part1: [Task](https://neochief.github.io/advent2024/25/part1.txt) [Result](https://neochief.github.io/advent2024/25/part1.html) [Code](https://github.com/neochief/advent2024/blob/main/25/part1.js)
+- Part2: [Task](https://neochief.github.io/advent2024/25/part2.txt) [Result](https://neochief.github.io/advent2024/25/part2.html) [Code](https://github.com/neochief/advent2024/blob/main/25/part2.js)
