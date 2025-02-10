@@ -57,12 +57,17 @@ export function run(input, n) {
         const bestTrajectoryParts = allTrajectoryParts.map(trajectories => bestTrajectoryFromCache(trajectories));
 
         let result = 0;
-        bestTrajectoryParts.forEach(trajectory => {
-            for (let i = 0; i < trajectory.length; i++) {
-                const startChar = i === 0 ? 'A' : trajectory[i - 1];
-                const endChar = trajectory[i];
-                result += getLength(cache[startChar + endChar], n - 1);
-            }
+        bestTrajectoryParts.forEach(trajectories => {
+            const variants = trajectories.map(trajectory => {
+                let result = 0;
+                for (let i = 0; i < trajectory.length; i++) {
+                    const startChar = i === 0 ? 'A' : trajectory[i - 1];
+                    const endChar = trajectory[i];
+                    result += getLength(cache[startChar + endChar], n - 1);
+                }
+                return result;
+            });
+            result += Math.min(...variants);
         });
 
         return result;
@@ -423,8 +428,9 @@ function bestTrajectoryFromCache(trajectories) {
         return cost;
     }
 
-    trajectories.sort((a, b) => cost(a) - cost(b));
-    return trajectories[0];
+    const costs = trajectories.map(t => cost(t));
+    const minConst = Math.min(...costs);
+    return trajectories.filter((t, i) => costs[i] === minConst);
 }
 
 function getDirectionNums(d) {

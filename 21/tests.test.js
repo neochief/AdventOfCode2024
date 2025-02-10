@@ -1,5 +1,5 @@
 import {assert, test} from 'vitest'
-import {example, realInput} from "./input.js";
+import {ev, example, realInput} from "./input.js";
 import {part1, part2, parseInput, bestTrajectory} from "./code.js";
 
 test('input', () => {
@@ -26,4 +26,9 @@ test('part2: example', () => {
 test('part2: realInput', () => {
     const result = part2(realInput);
     assert.equal(result, 271631192020464);
+});
+
+test('part2: ev', () => {
+    const result = part2(ev);
+    assert.equal(result, 246810588779586);
 });
