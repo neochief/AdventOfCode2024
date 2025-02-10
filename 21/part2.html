@@ -4,11 +4,31 @@
     <script type="module">
         import { part2 } from './code.js';
         import { realInput } from './input.js';
+        function run(input) {
+            const start = performance.now();
+            document.getElementById("result").innerText = part2(input);
+            const end = performance.now();
+            const diff = Math.round((end - start) * 1000) / 1000;
+            document.getElementById("time").innerText = `Execution time: ${diff} ms`;
+        }
         document.addEventListener("DOMContentLoaded", function() {
-            document.body.innerHTML = "<pre>" + part2(realInput) + "</pre>";
+            run(realInput)
+        });
+        document.getElementById("input").value = (realInput);
+        document.getElementById("run").addEventListener("click", function() {
+            const input = document.getElementById("input").value;
+            run(input);
         });
     </script>
 </head>
-<body>
+<body style="max-height: 100vh; padding: 50px; margin: 0; display:grid; gap: 50px;">
+    <textarea id="input" style="margin:0;  font-size: 32px; padding: 5px;height: 100%; width: 100%"></textarea>
+
+    <div style="height: 100%; width: 100%; display: flex; flex-direction: column; gap: 50px;">
+        <button id="run" style="margin:0; padding: 0 50px; font-size: 32px;" >Update</button>
+        <pre id="result" style="background: #eee; font-size: 32px; margin:0; padding: 5px; height: 100%; width: 100%">
+        </pre>
+        <p id="time" style="margin-top: -40px"></p>
+    </div>
 </body>
 </html>
